@@ -25,6 +25,11 @@ html{
     --grey: #717171;
     --yellow: #adff2f;
 }
+
+a{
+    display: block;
+    cursor: pointer;
+}
 /* parte container  *****************/
 .wrapper{
     width: 100%;
@@ -125,12 +130,20 @@ h5{
     margin-left: 1rem;
 }
 
+.margin-right{
+    margin-right: 0.5rem;
+}
+
 .margin-bot{
     margin-bottom: 1rem;
 }
 
 .space-between{
     justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
 }
 
 .align-center{
@@ -147,6 +160,10 @@ h5{
 
 .just-center{
     justify-content: center;
+}
+
+.bold{
+    font-weight: bold;
 }
 
 /* topbar  ***********************/
@@ -212,8 +229,48 @@ h5{
     width: 100px;
     height: 2px;
     background-color: var(--white);
+    margin-right: 1rem;
 }
 
 .playbar p{
     font-size: 0.8rem;
+}
+
+/* menù  *****************/
+
+.home-bar{
+    width: 10%;
+}
+
+.small-textnav{
+    font-size: 0.8rem;
+}
+
+#logo{
+    width: 70%;
+    height: 70px;
+}
+
+.fa-square-plus{
+    font-size: 2.5rem;
+}
+
+.bot-nav img{
+    width: 10%;
+}
+
+#download-logo{
+    width: 1rem;
+    margin-right: 0.5rem;
+}
+
+.user-bradius{
+    background-color: var(--lightgrey);
+    border-radius: 50%;
+}
+
+hr{
+    background-color: var(--lightgrey);
+    color: var(--lightgrey);
+    margin: 0 1rem;
 }

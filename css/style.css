@@ -58,6 +58,10 @@ nav{
     background-color: var(--black);
 }
 
+.nav576{
+    display: none;
+}
+
 .content{
     width: calc(100% - 230px);
     height: 100%;
@@ -138,6 +142,10 @@ h5{
     margin-bottom: 1rem;
 }
 
+.margin-top{
+    margin-top: 1rem;
+}
+
 .space-between{
     justify-content: space-between;
 }
@@ -210,12 +218,12 @@ h5{
 }
 
 .playbar i{
-    font-size: 1.5rem;
+    font-size: 100%;
     margin: 0 1rem;
 }
 
 #play-button{
-    font-size: 2.5rem;
+    font-size: 250%;
 }
 
 .spacebar-song{
@@ -273,4 +281,75 @@ hr{
     background-color: var(--lightgrey);
     color: var(--lightgrey);
     margin: 0 1rem;
+}
+
+/* media query 992px  *******************/
+
+@media screen and (max-width: 992px){
+    .wrapper{
+        max-width: 992px;
+    }
+    .img-container{
+        width: calc((100% - 6rem) / 4);
+    }
+    h5{
+        margin-bottom: 1rem;
+    }
+}
+
+/* media query 768px **************/
+
+@media screen and (max-width: 768px) {
+    .wrapper{
+        max-width: 768px;
+    }
+    .img-container{
+        width: calc((100% - 5rem) / 2);
+    }
+
+}
+
+/* media query 576px ***************/
+
+@media screen and (max-width: 576px){
+    .wrapper{
+        max-width: 576px;
+    }
+    #nav-none{
+        display: none;
+    }
+    .nav576{
+        display: inline;
+        width: 40px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .nav576 img{
+        width: 60%;
+    }
+    li{
+        text-align: center;
+        margin-top: 0.8rem;        
+    }
+    #bot-nav576{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .topbar, .content{
+        width: calc(100% - 40px);
+    }
+    .img-container{
+        width: calc((100% - 5rem) / 2);
+    }
+    .inner-content ul{
+        width: 100%;
+        font-weight: bold;
+    }
+    .inner-content li{
+        margin: 0.8 1rem;
+    }
+
+   
 }

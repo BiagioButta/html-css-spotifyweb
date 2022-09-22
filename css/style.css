@@ -170,6 +170,10 @@ h5{
     justify-content: center;
 }
 
+.just-end{
+    justify-content: flex-end;
+}
+
 .bold{
     font-weight: bold;
 }
@@ -207,10 +211,6 @@ h5{
 .playbar img{
     width: 50px;
     height: 50px;
-}
-
-.playbar-sx{
-    justify-content: center;
 }
 
 .playbar h4, h5{
@@ -280,7 +280,7 @@ h5{
 hr{
     background-color: var(--lightgrey);
     color: var(--lightgrey);
-    margin: 0 1rem;
+    margin: 1rem;
 }
 
 /* media query 992px  *******************/
@@ -295,6 +295,13 @@ hr{
     h5{
         margin-bottom: 1rem;
     }
+    .spacebar-song{
+        width: 200px;
+    }
+    .playbar i{
+        font-size: 1rem;
+        margin: 0 0.5rem;
+    }
 }
 
 /* media query 768px **************/
@@ -305,6 +312,16 @@ hr{
     }
     .img-container{
         width: calc((100% - 5rem) / 2);
+    }
+    .playbar{
+        flex-wrap: nowrap;
+    }
+    .playbar i{
+        font-size: 1rem;
+        margin: 0 0.5rem;
+    }
+    .spacebar-song{
+        width: 100px;
     }
 
 }
@@ -350,6 +367,18 @@ hr{
     .inner-content li{
         margin: 0.8 1rem;
     }
-
+    .playbar{
+        flex-wrap: nowrap;
+    }
+    .playbar i{
+        font-size: 0.8rem;
+        margin: 0 0.2rem;
+    }
+    .spacebar-song{
+        width: 100px;
+    }
+    #spacebar-vol{
+        width: 80px;
+    }
    
 }

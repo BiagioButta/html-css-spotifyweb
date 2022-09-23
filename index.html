@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,248 +12,188 @@
     <title>Document</title>
 </head>
 <body>
-    
-<div class="wrapper">
 
-    <main>
+    <div class="wrapper">
 
-        <nav id="nav-none" class="flex space-between">
-
-            <div class="top-nav">
-                <div class="flex align-center margin-left">
-                    <img id="logo" src="./img/logo.svg" alt="">
-                </div>
-                <div>
-
-                    <ul>
-                        <li class="flex margin-left margin-top-bot"><a class="bold flex align-center small-textnav no-decoration color-white" href=""><img class="margin-right home-bar" src="./img/home.svg" alt="">Home</a></li>
-                        <li class="flex margin-left margin-top-bot"><a class="bold flex align-center small-textnav no-decoration color-lightgrey" href=""><img class="margin-right home-bar" src="./img/search.svg" alt="">Cerca</a></li>
-                        <li class="flex margin-left margin-top-bot"><a class="bold flex align-center small-textnav no-decoration color-lightgrey" href=""><img class="margin-right home-bar" src="./img/libreria.svg" alt="">La tua libreria</a></li>
-                    </ul>
-
-                </div>
+        <main>
+<!------------------- nav bar  --------------------------->
+            <nav id="d-non576" class="flex column space-between">
 
                 <div>
 
-                    <ul>
-                        <li class="small-textnav margin-left margin-top-bot"><a class="bold color-white no-decoration uppercase">Playlist</a></li>
-                        <li class="small-textnav margin-left margin-top-bot"><a class="flex align-center bold color-lightgrey no-decoration" href=""><i class="margin-right color-lightgrey fa-solid fa-square-plus"></i>Crea Playlist</a></li>
-                        <li class="small-textnav margin-left margin-top-bot"><a class="bold color-lightgrey no-decoration">Nome Playlist</a></li>
-                        <li class="small-textnav margin-left margin-top-bot"><a class="bold color-lightgrey no-decoration">Nome Playlist</a></li>
-                        <li class="small-textnav margin-left margin-top-bot"><a class="bold color-lightgrey no-decoration">Nome Playlist</a></li>
-                        <li class="small-textnav margin-left margin-top-bot"><a class="bold color-lightgrey no-decoration">Nome Playlist</a></li>
-                        <li class="small-textnav margin-left margin-top-bot"><a class="bold color-lightgrey no-decoration">Nome Playlist</a></li>
-                        <li class="small-textnav margin-left margin-top-bot"><a class="bold color-lightgrey no-decoration">Nome Playlist</a></li>
-                    </ul>
+                    <div class="logo-nav flex just-center"><img id="logo" src="./img/logo.svg" alt=""></div>
+
+                    <div class="margin-left">
+                        <ul>
+                            <li class="flex"><a class="flex row align-center color-white bold" href="#"><img class="width10pc margin-right05" src="./img/home.svg" alt="">Home</a></li>
+                            <li class="flex margin-top05 margin-bot05"><a class="flex row align-center color-lightgrey bold" href="#"><img class="width10pc margin-right05" src=".//img/search.svg" alt="">Cerca</a></li>
+                            <li class="flex"><a class="flex row align-center color-lightgrey bold" href="#"><img class="width10pc margin-right05" src="./img/libreria.svg" alt="">La tua libreria</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="margin-left playlist-overflow">
+                        <ul>
+                            <li class="margin-top"><a class="bold color-white uppercase" href="#">Playlist</a></li>
+                            <li class="margin-top05"><a class="color-lightgrey bold flex align-center" href="#"><i class="color-lightgrey fa-solid fa-square-plus margin-right05"></i>Nome Playlist</a></li>
+                            <li class="margin-top05"><a class="color-lightgrey bold" href="#">Nome Playlist</a></li>
+                            <li class="margin-top05"><a class="color-lightgrey bold" href="#">Nome Playlist</a></li>
+                            <li class="margin-top05"><a class="color-lightgrey bold" href="#">Nome Playlist</a></li>
+                            <li class="margin-top05"><a class="color-lightgrey bold" href="#">Nome Playlist</a></li>
+                            <li class="margin-top05"><a class="color-lightgrey bold" href="#">Nome Playlist</a></li>
+                            <li class="margin-top05"><a class="color-lightgrey bold" href="#">Nome Playlist</a></li>
+                        </ul>
+                    </div>
 
                 </div>
 
-            </div>
-
-            <div class="bot-nav flex column just-end">
 
                 <div>
-                    <a class="margin-left no-decoration flex align-center color-lightgrey bold" href="#"><img id="download-logo" src="./img/download.svg" alt="">Installa app</a>
+
+                    <div class="margin-left"><a class="color-lightgrey bold flex align-center" href="#"><img id="download-logo" class="margin-right05"  src="./img/download.svg" alt="">Installa app</a></div>
+                    <hr>
+                    <div class="margin-left"><a class="color-lightgrey bold flex align-center" href="#"><img class="width10pc john-icon margin-right05" src="./img/profile.svg" alt="">John</a></div>
+
                 </div>
-                <hr>
+
+            </nav>
+
+            <!---------------------- nav bar 576 --------------->
+
+            <section id="inline-576">
+
                 <div>
-                    <a class="no-decoration color-white bold margin-left" href="#"><span class="flex align-center"><img class="user-bradius margin-right" src="./img/profile.svg" alt="">John Doe</span></a>
+                    <img class="margin-top05" src="./img/logo-small.svg" alt="">
+                    <img class="margin-top05" src="./img/home.svg" alt="">
+                    <img class="margin-top05" src="./img/search.svg" alt="">
+                    <img class="margin-top05" src="./img/libreria.svg" alt="">
                 </div>
 
-            </div>
-
-        </nav>
-<!-- nav576 **************************************** -->
-        <nav class="nav576">
-
-            <div class="flex just-center">
-                <img class="margin-top" src="./img/logo-small.svg" alt="">
-                <ul>
-                    <li><a href="#"><img src="./img/home.svg" alt=""></a></li>
-                    <li><a href="#"><img src="./img/search.svg" alt=""></a></li>
-                    <li><a href="#"><img src="./img/libreria.svg" alt=""></a></li>
-                </ul>
-            </div>
-
-            <div id="bot-nav576">
                 <div>
-                    <a class="color-lightgrey" href="#"><img src="./img/download.svg" alt=""></a>
+                    <img class="margin-bot05" src="./img/download.svg" alt="">
+                    <img class="margin-bot05 john-icon" src="./img/profile.svg" alt="">
                 </div>
-                <div>
-                    <a class="color-white" href="#"><span><img class="user-bradius" src="./img/profile.svg" alt=""></span></a>
-                </div>
-            </div>
-
-        </nav>
-    
-        <div class="content">
-    
-            <section class="topbar flex">
-
-                <a id="upgrade-link" href="#" class="color-white no-decoration uppercase">Effettua l'upgrade</a>
 
             </section>
-    
-            <section class="inner-content">
 
-                <div>
-                    <ul class="flex inner-contentlist">
-                        <li class="nostylelist margin-top"><a class="no-decoration color-lightgrey uppercase" href="#">In evidenza</a></li>
-                        <li class="nostylelist margin-top"><a class="no-decoration color-lightgrey uppercase" href="#">Podcast</a></li>
-                        <li class="nostylelist margin-top"><a class="no-decoration color-lightgrey uppercase" href="#">Classifiche</a></li>
-                        <li class="nostylelist margin-top"><a class="no-decoration color-lightgrey uppercase" href="#">Generi e mood</a></li>
-                        <li class="nostylelist margin-top"><a class="no-decoration color-lightgrey uppercase" href="#">Nuove uscite</a></li>
-                        <li class="nostylelist margin-top"><a class="no-decoration color-lightgrey uppercase" href="#">Scopri</a></li>
+            <!--------------------- main content  -------------------------->
+            <section class="main-content">
+
+                <aside class="flex flex-end align-center">
+                    <a id="upgrade" class="uppercase" href="#">Effettua l'upgrade</a>
+                </aside>
+
+                <section class="inner-content">
+
+                    <ul class="flex row space-around wrap">
+                        <li class="nostylelist margin-top"><a class="uppercase color-lightgrey bold" href="#">Generi e mood</a></li>
+                        <li class="nostylelist margin-top"><a class="uppercase color-lightgrey bold" href="#">Generi e mood</a></li>
+                        <li class="nostylelist margin-top"><a class="uppercase color-lightgrey bold" href="#">Generi e mood</a></li>
+                        <li class="nostylelist margin-top"><a class="uppercase color-lightgrey bold" href="#">Generi e mood</a></li>
+                        <li class="nostylelist margin-top"><a class="uppercase color-lightgrey bold" href="#">Generi e mood</a></li>
+                        <li class="nostylelist margin-top"><a class="uppercase color-lightgrey bold" href="#">Generi e mood</a></li>
                     </ul>
-                </div>
-                
-                <div class="album flex">
 
-                    <h1 class="color-white margin-left margin-top-bot">Ascoltati di recente</h1>
+                    <div class="album">
 
-                    <div class="flex">
+                        <div class="recenti">
 
-                        <div class="img-container margin-left">                            
-                            <img src="./img/metal_lifting.jpg" alt="">
-                            <h4>Heavy Metal</h4>
-                            <h5>Artista</h5>
+                            <h1 class="color-white">Ascoltati di recente</h1>
+                            <div class="flex wrap">
+                                <div class="img-container"><img src="./img/metal_lifting.jpg" alt=""><h3 class="color-white margin-top margin-bot05">Titolo</h3><h5 class="color-lightgrey">Artista</h5></div>
+                                <div class="img-container"><img src="./img/metal_lifting.jpg" alt=""><h3 class="color-white margin-top margin-bot05">Titolo</h3><h5 class="color-lightgrey">Artista</h5></div>
+                                <div class="img-container"><img src="./img/metal_lifting.jpg" alt=""><h3 class="color-white margin-top margin-bot05">Titolo</h3><h5 class="color-lightgrey">Artista</h5></div>
+                                <div class="img-container"><img src="./img/metal_lifting.jpg" alt=""><h3 class="color-white margin-top margin-bot05">Titolo</h3><h5 class="color-lightgrey">Artista</h5></div>
+                                <div class="img-container"><img src="./img/metal_lifting.jpg" alt=""><h3 class="color-white margin-top margin-bot05">Titolo</h3><h5 class="color-lightgrey">Artista</h5></div>
+                                <div class="img-container"><img src="./img/metal_lifting.jpg" alt=""><h3 class="color-white margin-top margin-bot05">Titolo</h3><h5 class="color-lightgrey">Artista</h5></div>
+                            </div>
+
                         </div>
 
-                        <div class="img-container margin-left">
-                            <img src="./img/metal_lifting.jpg" alt="">
-                            <h4>Heavy Metal</h4>
-                            <h5>Artista</h5>
+
+                        <div class="per-te">
+
+                            <h1 class="color-white margin-top">Ascoltati di recente</h1>
+                            <p class="color-lightgrey bold">Lorem ipsum dolor sit amet.</p>
+                            <div class="flex">
+                                <div class="img-container"><img src="./img/metal_lifting.jpg" alt=""><h3 class="color-white margin-top margin-bot05">Titolo</h3><h5 class="color-lightgrey">Artista</h5></div>
+                                <div class="img-container"><img src="./img/metal_lifting.jpg" alt=""><h3 class="color-white margin-top margin-bot05">Titolo</h3><h5 class="color-lightgrey">Artista</h5></div>
+                            </div>
+
                         </div>
 
-                        <div class="img-container margin-left">
-                            <img src="./img/metal_lifting.jpg" alt="">
-                            <h4>Heavy Metal</h4>
-                            <h5>Artista</h5>
-                        </div>
 
-                        <div class="img-container margin-left">
-                            <img src="./img/metal_lifting.jpg" alt="">
-                            <h4>Heavy Metal</h4>
-                            <h5>Artista</h5>
-                        </div>
+                        <div class="popolari">
 
-                        <div class="img-container margin-left">
-                            <img src="./img/metal_lifting.jpg" alt="">
-                            <h4>Heavy Metal</h4>
-                            <h5>Artista</h5>
-                        </div>
+                            <h1 class="color-white">Ascoltati di recente</h1>
+                            <p class="color-lightgrey bold">Lorem ipsum dolor sit amet.</p>
+                            <div class="flex">
+                                <div class="img-container"><img src="./img/metal_lifting.jpg" alt=""><h3 class="color-white margin-top margin-bot05">Titolo</h3><h5 class="color-lightgrey">Artista</h5></div>
+                                <div class="img-container"><img src="./img/metal_lifting.jpg" alt=""><h3 class="color-white margin-top margin-bot05">Titolo</h3><h5 class="color-lightgrey">Artista</h5></div>
+                            </div>
 
-                        <div class="img-container margin-left">
-                            <img src="./img/metal_lifting.jpg" alt="">
-                            <h4>Heavy Metal</h4>
-                            <h5>Artista</h5>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="for-u">
-
-                    <div>
-                        <h1 class="color-white margin-left margin-top-bot">Creato per te</h1>
-                        <p class="color-lightgrey margin-left margin-bot">Più ascolti, più accurati saranno i suggerimenti</p>
-                    </div>
-
-                    <div class="flex">
-
-                        <div class="img-container margin-left">
-                            <img src="./img/radar.jpeg" alt="">
-                            <h4>Releaser Radar</h4>
-                        </div>
-
-                        <div class="img-container margin-left">
-                            <img src="./img/radar.jpeg" alt="">
-                            <h4>Releaser Radar</h4>
                         </div>
 
                     </div>
 
-                </div>
-
-                <div class="piuascoltati">
-
-                    <div>
-                        <h1 class="color-white margin-left margin-top-bot">Artisti più popolari</h1>
-                        <p class="color-lightgrey margin-left margin-bot">Più ascolti, più accurati saranno i suggerimenti</p>
-                    </div>
-
-                    <div class="flex">
-
-                        <div class="img-container margin-left">
-                            <img class="circle-img" src="./img/einaudi.jpeg" alt="">
-                            <h4>Einaudi</h4>
-                        </div>
-
-                        <div class="img-container margin-left">
-                            <img class="circle-img" src="./img/einaudi.jpeg" alt="">
-                            <h4>Einaudi</h4>
-                        </div>
-
-                    </div>
-
-                </div>
+                </section>
             
-
             </section>
-    
-        </div>
 
-    </main>
+        </main>
+<!-------------------- playbar ---------------------->
+        <footer>
 
-    <div class="playbar space-between flex align-center">
+            <div class="flex playbar">
 
-        <div class="flex">
+                <div class="pbsx flex margin-left">
 
-            <div class="flex playbar-sx align-center">
-                <img class="margin-left" src="./img/sinister.jpeg" alt="">
-                <div> 
-                    <h4>Sinister</h4>
-                    <h5 class="margin-left">Nome brano</h5>
+                    <div class="flex align-center">
+                        <img class="width10pc" src="./img/sinister.jpeg" alt="">
+                        <div>
+                            <p class="color-white bold">More then a feeling</p>
+                            <p class="color-lightgrey bold">Boston</p>
+                        </div>
+                    </div>
+
+                    <div class="flex align-center">
+                        <i class="color-lightgrey fa-regular fa-heart"></i>
+                        <i class="margin-left color-lightgrey fa-regular fa-folder"></i>
+                    </div>
+
                 </div>
+
+                <div class="pbcenter flex just-center column">
+
+                    <div class="flex just-center align-center">
+                        <i class="margin-left margin-right color-white fa-solid fa-shuffle"></i>
+                        <i class="margin-left margin-right color-white fa-solid fa-backward-step"></i>
+                        <i class="margin-left margin-right color-white fa-regular fa-circle-play"></i>
+                        <i class="margin-left margin-right color-white fa-solid fa-forward-step"></i>
+                        <i class="margin-left margin-right color-white fa-solid fa-arrow-rotate-right"></i>
+                    </div>
+
+                    <div class="flex just-center align-center">
+                        <p class="color-white">0:25</p>
+                        <span></span>
+                        <p class="color-white">4:20</p>
+                    </div>
+
+                </div>
+
+                <div class="pbdx flex align-center flex-end">
+
+                    <i class="margin-left color-white fa-solid fa-bars"></i>
+                    <i class="margin-left color-white fa-solid fa-desktop"></i>
+                    <i class="margin-left color-white fa-solid fa-volume-high"></i>
+                    <span></span>
+
+                </div>
+
             </div>
 
-            <div class="flex align-center ">
-                <i class="fa-regular fa-heart color-lightgrey"></i>
-                <i class="fa-regular fa-folder color-lightgrey"></i>
-            </div>
-
-        </div>
-
-        <div class="flex column">
-
-            <div class="flex align-center just-center">
-                <i class="color-white fa-solid fa-shuffle"></i>
-                <i class="color-white fa-solid fa-backward-step"></i>
-                <i id="play-button" class="color-white fa-regular fa-circle-play"></i>
-                <i class="color-white fa-solid fa-forward-step"></i>
-                <i class="color-white fa-solid fa-arrow-rotate-right"></i>
-            </div>
-
-            <div class="flex row align-center just-center">
-                <p class="color-white">0:25</p>
-                <span class="spacebar-song"></span>
-                <p class="color-white">4:20</p>
-            </div>
-
-        </div>
-
-        <div class="flex align-center">
-
-            <i class="color-white fa-solid fa-bars"></i>
-            <i class="color-white fa-solid fa-desktop"></i>
-            <i class="color-white fa-solid fa-volume-high"></i>
-            <span id="spacebar-vol"></span>
-            
-        </div>
+        </footer>
 
     </div>
-
-</div>
-
+    
 </body>
 </html>
